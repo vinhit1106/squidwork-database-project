@@ -12,10 +12,14 @@ This repository contains the team's Phase 1 work only. It does not claim that lo
 | Member | Institutional email | Phase 1 ownership |
 |---|---|---|
 | Le Minh Thien | `n24dccn167@student.ptithcm.edu.vn` | Requirements and business rules |
-| Nguyen Ngoc Vinh | `n24dccn183@student.ptithcm.edu.vn` | Report integration and conceptual model review |
+| Nguyen Ngoc Vinh | `n24dccn183@student.ptithcm.edu.vn` | Project repository setup; report drafting and integration; EER model formatting and final submission check |
 | Nguyen Tuan Vy | `n24dccn184@student.ptithcm.edu.vn` | Scenario analysis and relationship/cardinality review |
 
 The institutional emails above are the team's academic contact details. A GitHub account may use a different login email.
+
+## Phase 1 work ownership
+
+Nguyen Ngoc Vinh prepared the Phase 1 repository structure, assembled and formatted the conceptual-design report, integrated the requirements and EER sections, prepared the PDF/DOCX submission files, and checked the final repository contents against the Phase 1 scope.
 
 ## Files
 
