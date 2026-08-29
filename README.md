@@ -9,11 +9,13 @@ This repository contains the team's Phase 1 work only. It does not claim that lo
 
 ## Team
 
-| Member | Email | Phase 1 ownership |
+| Member | Institutional email | Phase 1 ownership |
 |---|---|---|
-| Le Minh Thien | Requirements and business rules |
-| Nguyen Ngoc Vinh | Report integration and conceptual model review |
-| Nguyen Tuan Vy | Scenario analysis and relationship/cardinality review |
+| Le Minh Thien | `n24dccn167@student.ptithcm.edu.vn` | Requirements and business rules |
+| Nguyen Ngoc Vinh | `n24dccn183@student.ptithcm.edu.vn` | Report integration and conceptual model review |
+| Nguyen Tuan Vy | `n24dccn184@student.ptithcm.edu.vn` | Scenario analysis and relationship/cardinality review |
+
+The institutional emails above are the team's academic contact details. A GitHub account may use a different login email.
 
 ## Files
 
