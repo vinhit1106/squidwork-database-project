@@ -7,7 +7,7 @@
 
 | Relationship | Cardinality | Review result |
 |---|---|---|
-| USER - CLIENT_PROFILE | 1 to 0..1 | Correct. A registered user may not act as a client, or may have one client profile. |
+| USER - CLIENT_PROFILE | 1 to 0..1 | Correct. A registered user may not act as a client, or may have one client profile. |s
 | USER - FREELANCER_PROFILE | 1 to 0..1 | Correct. A registered user may not act as a freelancer, or may have one freelancer profile. |
 | CLIENT_PROFILE - JOB | 1 to N | Correct. One client can post many jobs, while each job has one owning client. |
 | JOB_CATEGORY - JOB | 1 to N | Correct. Each job has one category, and a category can contain many jobs. |
@@ -24,3 +24,6 @@
 ## Phase 1 conclusion
 
 The documented relationships and cardinalities match the business rules. The model is ready for the Phase 2 relational mapping step.
+## Additional review note
+
+I reviewed the relationship descriptions against the Phase 1 EER overview. The cardinalities are consistent with the business rules: one client can post many jobs, one job can receive many proposals, and an accepted proposal can create at most one contract. The USER specialization is overlapping because one account may have both a client profile and a freelancer profile.
