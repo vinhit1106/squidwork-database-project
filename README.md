@@ -16,10 +16,7 @@ SquidWork là mô hình cơ sở dữ liệu cho một sàn freelance kiểu Min
 - [`SquidWork_Database_Report.docx`](docs/SquidWork_Database_Report.docx) - Bản báo cáo chính.
 - [`SquidWork_Database_Report.md`](docs/SquidWork_Database_Report.md) - Nội dung nguồn.
 - [`EER_Diagram_SquidWork.png`](diagrams/EER_Diagram_SquidWork.png) - Sơ đồ EER.
-- [`TEAM.md`](docs/TEAM.md) - Thành viên và phần phụ trách.
 
 ## Thành viên
 
-Lê Minh Thiện - Nguyễn Ngọc Vinh - Nguyễn Tuấn Vỹ
-
-Cả ba cùng thống nhất phạm vi, quy tắc nghiệp vụ và mô hình EER; mỗi thành viên phụ trách một phần để tổng hợp thành bài nộp chung.
+Lê Minh Thiện (N24DCCN167) - Nguyễn Ngọc Vinh (N24DCCN183) - Nguyễn Tuấn Vỹ (N24DCCN184)
