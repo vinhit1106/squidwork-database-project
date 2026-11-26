@@ -1,7 +1,5 @@
 # SquidWork - Phase 3: DDL, DML, Complex Queries, Triggers & Views
 
-**Nguồn:** `SquidWork_Database_Project_Report.pdf`, mục 3.1-3.5.  
-**Mục tiêu:** Tóm tắt script triển khai và các truy vấn minh họa; SQL bên dưới là bản rút gọn để dễ đọc.
 
 ## 1. SQL DDL Script
 
