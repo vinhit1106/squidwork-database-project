@@ -19,7 +19,6 @@ SquidWork là mô hình cơ sở dữ liệu cho một sàn freelance kiểu Min
 
 - [`SquidWork_Database_Report.pdf`](docs/SquidWork_Database_Report.pdf) - Bản xem nhanh.
 - [`SquidWork_Database_Report.docx`](docs/SquidWork_Database_Report.docx) - Bản báo cáo chính.
-- [`EER_Diagram_SquidWork.png`](diagrams/EER_Diagram_SquidWork.png) - Sơ đồ EER.
 
 ## Thành viên
 
