@@ -1,8 +1,5 @@
 # SquidWork - Phase 2: Foreign Key Definitions & Normalization Proofs
 
-**Nguồn:** `SquidWork_Database_Project_Report.pdf`, mục 2.3-2.4, trang PDF 9-13.  
-**Phạm vi:** Tóm tắt baseline hiện tại; phương án chuẩn hóa là đề xuất, chưa phải thay đổi schema đã triển khai.
-
 ## 1. Foreign Key Definitions
 
 Schema có **25 khóa ngoại: 18 FK đơn và 7 FK ghép**. Các cột tham chiếu dùng `BIGINT` tương thích; bộ cột được tham chiếu có `PRIMARY KEY` hoặc `UNIQUE`. Tất cả FK dùng `ON DELETE RESTRICT` và `ON UPDATE RESTRICT` để bảo vệ lịch sử, không xóa dây chuyền.
