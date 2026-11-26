@@ -6,15 +6,19 @@ SquidWork là mô hình cơ sở dữ liệu cho một sàn freelance kiểu Min
 
 ## Nội dung chính
 
-- 14 thực thể, bao quát tài khoản, hồ sơ Client/Freelancer và toàn bộ vòng đời giao dịch.
-- 17 quy tắc nghiệp vụ cùng các ràng buộc về quan hệ, số lượng và tính nhất quán dữ liệu.
-- Mô hình EER với specialization `USER` có thể đồng thời mang vai trò Client và Freelancer.
+- Lược đồ quan hệ gồm **18 bảng, 141 cột và 25 khóa ngoại**.
+- Hai profile `client_profiles` và `freelancer_profiles` dùng shared primary key, cho phép specialization chồng lấp.
+- Các bảng liên kết `user_roles`, `freelancer_skills` và `job_skills` biểu diễn quan hệ nhiều-nhiều.
+- Ràng buộc dữ liệu bằng PK, FK, UNIQUE, CHECK, trigger và transaction locking.
+- Phân tích chuẩn hóa từ 1NF đến BCNF, trong đó các ngoại lệ có chủ đích được giữ để hỗ trợ snapshot, đối soát và bảo vệ FK ghép.
+- **22 trigger** bảo vệ vòng đời Proposal, Contract, Milestone, Submission, Payment, Transaction và Review.
+- **2 view tổng hợp** cho rating Freelancer và tiến độ Milestone.
+- **15 truy vấn SQL** cho tìm kiếm, báo cáo marketplace, thanh toán, xếp hạng và theo dõi tiến độ.
 
 ## Tài liệu
 
 - [`SquidWork_Database_Report.pdf`](docs/SquidWork_Database_Report.pdf) - Bản xem nhanh.
 - [`SquidWork_Database_Report.docx`](docs/SquidWork_Database_Report.docx) - Bản báo cáo chính.
-- [`SquidWork_Database_Report.md`](docs/SquidWork_Database_Report.md) - Nội dung nguồn.
 - [`EER_Diagram_SquidWork.png`](diagrams/EER_Diagram_SquidWork.png) - Sơ đồ EER.
 
 ## Thành viên
